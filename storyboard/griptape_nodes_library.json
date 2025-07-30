@@ -1,0 +1,41 @@
+{
+  "name": "Storyboard Library",
+  "library_schema_version": "0.1.0",
+  "metadata": {
+    "author": "Ian Massingham",
+    "description": "Node for creating storyboards",
+    "library_version": "0.1.1",
+    "engine_version": "0.39.0",
+    "tags": [
+      "Griptape",
+      "AI",
+      "Storyboard"
+    ],
+    "dependencies": {
+      "pip_dependencies": [
+        "pillow"      ]
+    }
+  },
+  "categories": [
+    {
+      "text": {
+        "color": "border-purple-500",
+        "title": "Image",
+        "description": "Image related nodes",
+        "icon": "Image"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "class_name": "StoryboardImageNode",
+      "file_path": "storyboard_image_node.py",
+      "metadata": {
+        "category": "image",
+        "description": "Create a storyboard from a list of images.",
+        "display_name": "Create Storyboard",
+        "group": "tasks"
+      }
+    }
+  ]
+}
