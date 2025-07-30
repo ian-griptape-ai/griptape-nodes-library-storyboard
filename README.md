@@ -44,7 +44,7 @@ uv sync
 
 Creates a storyboard grid from multiple images with customizable layout options.
 
-![Create Storyboard Node](https://example.com/storyboard-node-image.png)
+![Create Storyboard Node](images/storyboard-node.png)
 
 #### Parameters
 
